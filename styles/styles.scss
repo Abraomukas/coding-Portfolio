@@ -320,7 +320,7 @@ section {
 	padding: 3.5rem 0;
 	position: relative;
 	&::before {
-		content: '';
+		content: ''; 
 		left: 50%;
 		top: 0;
 		width: 40%;
