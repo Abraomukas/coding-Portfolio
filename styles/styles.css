@@ -317,11 +317,12 @@ section {
 }
 .stat-title::before {
   content: "";
+  position: absolute;
   left: 50%;
   top: 0;
   width: 40%;
   height: 1px;
-  background-color: var(--color-grey-5);
+  background-color: var(--color-grey-4);
   transform: translateX(-50%);
 }
 
