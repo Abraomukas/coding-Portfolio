@@ -124,7 +124,7 @@ section {
 		background-color: var(--color-secondary) !important;
 		transition: all 0.4s ease-in-out;
 		i {
-			color: var(--color-white) !important;
+			color: white !important;
 		}
 	}
 	.control {
@@ -671,9 +671,14 @@ section {
 	overflow: hidden;
 	.btn-text {
 		padding: 0 2rem;
+		color: var(--color-white);
+		&:hover {
+			color: white;
+		}
 	}
 	.btn-icon {
 		background-color: var(--color-secondary);
+		color: white;
 		display: flex;
 		align-items: center;
 		justify-content: center;
