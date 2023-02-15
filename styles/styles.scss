@@ -130,7 +130,7 @@ section {
 	.control {
 		padding: 1rem;
 		cursor: pointer;
-		background-color: var(--color-grey-4);
+		background-color: var(--color-grey-3);
 		width: 55px;
 		height: 55px;
 		border-radius: 50%;
@@ -141,7 +141,7 @@ section {
 		box-shadow: var(--box-shadow-1);
 		i {
 			font-size: 1.2rem;
-			color: var(--color-grey-2);
+			color: var(--color-grey-1);
 			pointer-events: none;
 		}
 	}
@@ -153,7 +153,7 @@ section {
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
-	background-color: var(--color-grey-4);
+	background-color: var(--color-grey-3);
 	cursor: pointer;
 	position: fixed;
 	display: flex;
